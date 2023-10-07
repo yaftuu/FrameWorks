@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saludos</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <h1>Saludo Según Hora y Sexo</h1>
+    <label for="momento">Selecciona el momento del día:</label>
+    <select id="momento">
+        <option value="m">Mañana</option>
+        <option value="t">Tarde</option>
+        <option value="n">Noche</option>
+    </select><br>
+    <label for="sexo">Selecciona tu sexo:</label>
+    <select id="sexo">
+        <option value="m">Masculino</option>
+        <option value="f">Femenino</option>
+    </select><br>
+    <button onclick="generarSaludo()">Generar Saludo</button>
+    <p id="saludo"></p>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

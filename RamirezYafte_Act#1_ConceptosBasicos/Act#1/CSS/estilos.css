@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-family: fantasy;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff0048;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: monospace;
+}
+
+span {
+    color: #ccff00;
+    font-weight: bold;
+    font-size: 24px;
+}

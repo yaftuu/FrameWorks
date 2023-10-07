@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscopo Chino</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <h1>Calcula tu signo del horóscopo chino</h1>
+
+    <input type="number" id="anioNacimiento" placeholder="Año de nacimiento"><br>
+
+    <button onclick="calcularSigno()">Calcular Signo</button>
+
+    <p>Tu signo del horóscopo chino es: <span id="signo"></span></p>
+    
+    <img id="imagenSigno" src="" alt="Imagen del signo del horóscopo chino">
+
+    
+    <h2>Tabla de asignación de signos del horóscopo chino:</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Resto</th>
+                <th>Signo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0</td>
+                <td>Mono</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Gallo</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Perro</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Cerdo</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Rata</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Buey</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Tigre</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Conejo</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Dragón</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Serpiente</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Caballo</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Cabra</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="JS/script.js"></script>
+</body>
+</html>

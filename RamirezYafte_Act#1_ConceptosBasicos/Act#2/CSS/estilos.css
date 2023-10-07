@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+}
+
+h1{
+    font-family: cursive;
+}
+
+select, input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff00aa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+span {
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 24px;
+}
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f2f2f2;
+}

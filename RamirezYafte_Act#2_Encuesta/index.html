@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <h1>Encuesta de Satisfacción</h1>
+    <form id="formulario">
+        <div class="pregunta">
+            <span>1. ¿Cómo calificarías nuestros servicios?</span>
+            <label><input type="radio" name="pregunta1" value="excelente"> Excelente</label>
+            <label><input type="radio" name="pregunta1" value="bueno"> Bueno</label>
+            <label><input type="radio" name="pregunta1" value="regular"> Regular</label>
+            <label><input type="radio" name="pregunta1" value="malo"> Malo</label>
+            <label><input type="radio" name="pregunta1" value="mediocre"> Mediocre</label>
+        </div>
+
+        <div class="pregunta">
+            <span>2. ¿Qué opinas de la calidad de nuestros productos?</span>
+            <label><input type="radio" name="pregunta2" value="excelente"> Excelente</label>
+            <label><input type="radio" name="pregunta2" value="bueno"> Bueno</label>
+            <label><input type="radio" name="pregunta2" value="regular"> Regular</label>
+            <label><input type="radio" name="pregunta2" value="malo"> Malo</label>
+            <label><input type="radio" name="pregunta2" value="mediocre"> Mediocre</label>
+        </div>
+
+        <div class="pregunta">
+            <span>3. ¿Cómo consideras nuestros precios?</span>
+            <label><input type="radio" name="pregunta3" value="excelente"> Excelente</label>
+            <label><input type="radio" name="pregunta3" value="bueno"> Bueno</label>
+            <label><input type="radio" name="pregunta3" value="regular"> Regular</label>
+            <label><input type="radio" name="pregunta3" value="malo"> Malo</label>
+            <label><input type="radio" name="pregunta3" value="mediocre"> Mediocre</label>
+        </div>
+
+        <div class="pregunta">
+            <span>4. ¿Cómo fue tu experiencia de compra?</span>
+            <label><input type="radio" name="pregunta4" value="excelente"> Excelente</label>
+            <label><input type="radio" name="pregunta4" value="bueno"> Bueno</label>
+            <label><input type="radio" name="pregunta4" value="regular"> Regular</label>
+            <label><input type="radio" name="pregunta4" value="malo"> Malo</label>
+            <label><input type="radio" name="pregunta4" value="mediocre"> Mediocre</label>
+        </div>
+
+        <div class="pregunta">
+            <span>5. ¿Cómo consideras nuestra atención al cliente?</span>
+            <label><input type="radio" name="pregunta5" value="excelente"> Excelente</label>
+            <label><input type="radio" name="pregunta5" value="bueno"> Bueno</label>
+            <label><input type="radio" name="pregunta5" value="regular"> Regular</label>
+            <label><input type="radio" name="pregunta5" value="malo"> Malo</label>
+            <label><input type="radio" name="pregunta5" value="mediocre"> Mediocre</label>
+        </div>
+
+        <button type="button" onclick="enviarEncuesta()">Enviar</button>
+    </form>
+    <script src="JS/script.js"></script>
+</body>
+</html>

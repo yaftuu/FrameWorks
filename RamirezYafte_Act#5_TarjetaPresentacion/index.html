@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1 id="cabeza">¡JavaScript!</h1>
+    </header>
+
+    <section id="contenido">
+        <div id="tarjeta">
+            <h1 id="nombre">Nombre</h1>
+            <h2 id="puesto">Puesto</h2>
+            <div id="editar">
+                <label for="ventana">Editar</label>
+            </div>
+        </div>
+
+        <input type="checkbox" name="" id="ventana">
+        <div class="contenedor">
+            <div class="contenido">
+                <figure>
+                    <input type="text" id="nuevoNombre" class="entrada" placeholder="Nombre">
+                    <input type="text" id="nuevoPuesto" class="entrada" placeholder="Puesto">
+                    <div class="guardar">
+                        <label for="ventana" onclick="guardar()">Guardar</label>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        Frameworks de Desarrollo - GYRA
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

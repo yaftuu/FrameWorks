@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff00c3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.caja {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: transparent;
+    border: 2px solid #000;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.rojo-oscuro {
+    background-color: darkred;
+}

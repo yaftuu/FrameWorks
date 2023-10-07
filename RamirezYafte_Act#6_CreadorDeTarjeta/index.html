@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Generador de Tarjetas</h1>
+    </header>
+    <div class="container">
+        <div class="preview-container">
+            <div class="card">
+                <div class="message">Mensaje</div>
+                <div class="name">Nombre</div>
+                <div class="image"></div>
+            </div>
+        </div>
+        <div class="options-container">
+            <h2>Opciones de Creación</h2>
+            <div>
+                <label for="image">Imagen:</label>
+                <select id="image">
+                    <option value="./image/bosque.jpg">Imagen 1</option>
+                    <option value="./image/mar.jpg">Imagen 2</option>
+                    <option value="./image/cielo.jpg">Imagen 3</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Mensaje:</label>
+                <input type="text" id="message">
+            </div>
+            <div>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="backgroundColor">Color de Fondo:</label>
+                <input type="color" id="backgroundColor">
+            </div>
+            <button id="generate">Generar Tarjeta</button>
+        </div>
+    </div>
+    <footer>
+       FrameWorks de Desarrollo - GYRA
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

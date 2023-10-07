@@ -1,0 +1,48 @@
+#cabeza, footer{
+    color: #ff0080;
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
+#cabeza{
+    height: 70px;
+    font-size: 3rem;
+}
+
+
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s;
+    background-color: #eee;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+
+.categoria {
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 45%;
+    text-align: center;
+}
+
+.categoria:hover {
+    background-color: #ddd;
+}
+
+.subcategoria {
+    display: none;
+}
+
+.mostrando {
+    display: block;
+}

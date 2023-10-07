@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuentos Predial</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <h1>Seleccione su estado civil:</h1>
+
+    <select id="estadoCivil">
+        <option value="soltero">Soltero</option>
+        <option value="casado">Casado</option>
+        <option value="viudo">Viudo</option>
+        <option value="divorciado">Divorciado</option>
+    </select><br>
+
+    <h1>Ingrese el monto a pagar:</h1>
+    <input type="number" id="monto" placeholder="Monto a pagar"><br>
+
+    <button onclick="calcularDescuento()">Calcular Descuento</button>
+
+    <p>Descuento en el predial: <span id="descuento"></span>%</p>
+    <p>Monto con descuento: <span id="montoConDescuento"></span></p>
+    <h1>Tabla de Descuentos</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Estado Civil</th>
+                <th>Porcentaje de Descuento</th>
+            </tr>
+        </thead>
+        <tbody id="tablaDescuentos">
+            <tr>
+                <td>Soltero</td>
+                <td>5%</td>
+            </tr>
+            <tr>
+                <td>Casado</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td>Viudo</td>
+                <td>15%</td>
+            </tr>
+            <tr>
+                <td>Divorciado</td>
+                <td>7%</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="JS/script.js"></script>
+</body>
+</html>
